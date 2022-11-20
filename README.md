@@ -1,7 +1,9 @@
 # OBD-SISTEMA
 Sistema para Controle de Estoque
 
-Clone do Sistema Mapos, conforme descrição abaixo
+Clone do Sistema Mapos, customizado conforme necessidades pessoais.
+
+Descrição originaria abaixo
 
 ![MapOS](https://raw.githubusercontent.com/RamonSilva20/mapos/master/assets/img/logo.png)
 
