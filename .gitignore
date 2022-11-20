@@ -1,21 +1,29 @@
-# the composer package lock file and install directory
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# /composer.lock
-/fuel/vendor
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+# production
+/install/files
+/docker/data
 
-# the fuelphp document
-/docs/
+# misc
+.DS_Store
+.vscode
 
-# you may install these packages with `oil package`.
-# http://fuelphp.com/docs/packages/oil/package.html
-# /fuel/packages/auth/
-# /fuel/packages/email/
-# /fuel/packages/oil/
-# /fuel/packages/orm/
-# /fuel/packages/parser/
+/vendor/
+/application/vendor/
 
-# dynamically generated files
-/fuel/app/logs/*/*/*
-/fuel/app/cache/*/*
-/fuel/app/config/crypt.php
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+!blank/.gitkeep
+desktop.ini
+
+application/vendor/
+vendor/
+.idea/
+.php_cs.cache
+.php-cs-fixer.cache
+application/logs/*
+ci_sessions/
+
+uploads
